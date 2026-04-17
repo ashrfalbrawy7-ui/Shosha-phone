@@ -1,0 +1,765 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shosha Phone – صيانة وبيع الموبايلات</title>
+
+    <!-- Bootstrap 5 RTL -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&family=Orbitron:wght@700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- ============================================================
+     NAVBAR
+============================================================ -->
+    <nav id="navbar" class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="nav-logo navbar-brand" href="#hero"
+          >Shosha<span>Phone</span></a
+        >
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navMenu"
+          aria-controls="navMenu"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav me-auto gap-1">
+            <li class="nav-item">
+              <a class="nav-link" href="#services">خدماتنا</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">عن المحل</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#why">ليه شوشة فون؟</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#products">المنتجات</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">آراء العملاء</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">تواصل معنا</a>
+            </li>
+          </ul>
+          <a href="tel:+201152456274" class="btn btn-primary-glow mt-2 mt-lg-0">
+            <i class="fas fa-phone me-2"></i> اتصل دلوقتي
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ============================================================
+     HERO
+============================================================ -->
+    <section id="hero">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="container position-relative" style="z-index: 1">
+        <div class="row align-items-center gy-5">
+          <!-- Text -->
+          <div class="col-lg-6">
+            <span class="hero-badge"
+              ><i class="fas fa-bolt me-1"></i> محل شوشة فون</span
+            >
+            <h1 class="hero-title">
+              لصيانة وبيع الموبايلات<br />
+              <span class="hero-gradient-text">بأعلى جودة وأقل سعر</span>
+            </h1>
+            <p class="hero-sub">
+              عندنا في <strong>Shosha Phone</strong> بنصلح أي موبايل بضمان،
+              بنبيع أحدث التليفونات، وعندنا أفضل خدمات السوفت وير. تعالى وشوف
+              بنفسك!
+            </p>
+            <div class="hero-btns">
+             <a
+              href="https://wa.me/201152456274"
+              target="_blank"
+               class="btn btn-primary-glow"
+              >
+              <i class="fab fa-whatsapp me-2"></i> واتساب دلوقتي
+             </a>
+              <a href="tel:+201152456274" class="btn btn-outline-glow">
+                <i class="fas fa-phone me-2"></i> اتصل بينا
+              </a>
+            </div>
+
+            <!-- Stats -->
+            <div class="stats-strip mt-5">
+              <div class="row text-center g-3">
+                <div class="col">
+                  <span class="stat-number">+5K</span
+                  ><span class="stat-label">موبايل اتصلح</span>
+                </div>
+                <div class="col">
+                  <span class="stat-number">+8</span
+                  ><span class="stat-label">سنين خبرة</span>
+                </div>
+                <div class="col">
+                  <span class="stat-number">98%</span
+                  ><span class="stat-label">رضا العملاء</span>
+                </div>
+                <div class="col">
+                  <span class="stat-number">24h</span
+                  ><span class="stat-label">خدمة سريعة</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Graphic -->
+          <div class="col-lg-6 d-flex justify-content-center">
+            <div class="hero-phone-wrap" style="min-height: 320px; width: 100%">
+              <div class="hero-phone-ring ring-1"></div>
+              <div class="hero-phone-ring ring-2"></div>
+              <div class="hero-phone-ring ring-3"></div>
+              <i class="fas fa-mobile-screen-button hero-phone-icon"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+     SERVICES
+============================================================ -->
+    <section id="services">
+      <div class="container">
+        <div class="text-center mb-5">
+          <div class="section-divider reveal"></div>
+          <p
+            class="text-uppercase small fw-bold reveal"
+            style="color: var(--blue-1); letter-spacing: 2px"
+          >
+            ما بنقدمه
+          </p>
+          <h2 class="section-title reveal">
+            خدماتنا <span class="blue-text">المتميزة</span>
+          </h2>
+          <p class="section-sub reveal">
+            كل اللي موبايلك محتاجه، هنا في Shosha Phone
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <!-- Repair -->
+          <div class="col-md-6 col-lg-4 reveal reveal-delay-1">
+            <div class="glass-card service-card h-100">
+              <div class="service-icon-wrap">
+                <i class="fas fa-screwdriver-wrench"></i>
+              </div>
+              <h5>صيانة الموبايلات</h5>
+              <p>
+                بنصلح شاشات، بطاريات، كاميرات، شحن وكل أعطال الموبايل بضمان
+                حقيقي
+              </p>
+            </div>
+          </div>
+          <!-- Selling -->
+          <div class="col-md-6 col-lg-4 reveal reveal-delay-2">
+            <div class="glass-card service-card h-100">
+              <div class="service-icon-wrap"><i class="fas fa-store"></i></div>
+              <h5>بيع موبايلات جديدة ومستعملة</h5>
+              <p>
+                عندنا أحدث موديلات iPhone ， Samsung ， Xiaomi ， Oppo Samsung
+                ，Realme وغيرهم بأسعار تنافسية
+              </p>
+            </div>
+          </div>
+          <!-- Trade-in -->
+          <div class="col-md-6 col-lg-4 reveal reveal-delay-3">
+            <div class="glass-card service-card h-100">
+              <div class="service-icon-wrap">
+                <i class="fas fa-arrows-rotate"></i>
+              </div>
+              <h5>Trade-in – بدّل موبايلك</h5>
+              <p>
+                جيب موبايلك القديم وادفع الفرق بس. بنقيّم بعدل وبشفافية تامة
+              </p>
+            </div>
+          </div>
+          <!-- Software -->
+          <div class="col-md-6 col-lg-4 reveal reveal-delay-1">
+            <div class="glass-card service-card h-100">
+              <div class="service-icon-wrap"><i class="fas fa-code"></i></div>
+              <h5>خدمات السوفت وير</h5>
+              <p>
+                فلاشة، فتح شبكة، حذف حساب Google/iCloud، تحديثات وأي مشكلة
+                برمجية
+              </p>
+            </div>
+          </div>
+          <!-- Accessories -->
+          <div class="col-md-6 col-lg-4 reveal reveal-delay-2">
+            <div class="glass-card service-card h-100">
+              <div class="service-icon-wrap">
+                <i class="fas fa-headphones"></i>
+              </div>
+              <h5>إكسسوارات الموبايل</h5>
+              <p>
+                كفرات، شواحن، إيربودز، سماعات وكل إكسسوارات التليفون بأفضل
+                الأسعار
+              </p>
+            </div>
+          </div>
+          <!-- Fast -->
+          <div class="col-md-6 col-lg-4 reveal reveal-delay-3">
+            <div class="glass-card service-card h-100">
+              <div class="service-icon-wrap"><i class="fas fa-bolt"></i></div>
+              <h5>خدمة سريعة</h5>
+              <p>
+                معظم الإصلاحات بتتعمل في نفس اليوم أو حتى في ساعة. وقتك غالي
+                علينا!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+     ABOUT
+============================================================ -->
+    <section id="about">
+      <div class="container">
+        <div class="row align-items-center gy-5">
+          <!-- Visual -->
+          <div class="col-lg-5 reveal">
+            <div class="about-img-box">
+              <div class="about-badge">✦ منذ 2018</div>
+              <i class="fas fa-mobile-screen about-big-icon"></i>
+              <p
+                class="mt-3 mb-0"
+                style="color: var(--text-muted); font-size: 0.9rem"
+              >
+                خبرة تتكلم عن نفسها
+              </p>
+            </div>
+          </div>
+
+          <!-- Text -->
+          <div class="col-lg-7">
+            <div
+              class="section-divider me-0 ms-0 mb-3 reveal"
+              style="margin: 0"
+            ></div>
+            <p
+              class="text-uppercase small fw-bold reveal"
+              style="color: var(--blue-1); letter-spacing: 2px"
+            >
+              عن المحل
+            </p>
+            <h2 class="section-title reveal">
+              إحنا <span class="blue-text">Shosha Phone</span>
+            </h2>
+            <p class="about-text reveal">
+              Shosha Phone هو مركز صيانة وبيع موبايلات متخصص، بيقدم خدمة
+              احترافية بايدي متخصصين ذوي خبرة عالية. بدأنا رحلتنا من قلب الحي
+              وبقينا الوجهة الأولى لكل مشاكل الموبايلات.
+            </p>
+            <p class="about-text reveal">
+              بنتعامل مع كل الماركات العالمية – Apple، Samsung، Huawei، Xiaomi
+              وغيرهم – وبنستخدم قطع غيار أصلية لضمان أفضل نتيجة لموبايلك.
+            </p>
+            <ul class="about-list reveal">
+              <li><i class="fas fa-check-circle"></i> قطع غيار أصلية 100%</li>
+              <li>
+                <i class="fas fa-check-circle"></i> ضمان على جميع الإصلاحات
+              </li>
+              <li>
+                <i class="fas fa-check-circle"></i> فنيين معتمدين وذوي خبرة
+              </li>
+              <li><i class="fas fa-check-circle"></i> أسعار منافسة وشفافة</li>
+              <li>
+                <i class="fas fa-check-circle"></i> خدمة عملاء على مدار اليوم
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+     WHY US
+============================================================ -->
+    <section id="why">
+      <div class="container">
+        <div class="text-center mb-5">
+          <div class="section-divider reveal"></div>
+          <p
+            class="text-uppercase small fw-bold reveal"
+            style="color: var(--blue-1); letter-spacing: 2px"
+          >
+            ميزاتنا
+          </p>
+          <h2 class="section-title reveal">
+            ليه تختار <span class="blue-text">Shosha Phone</span>؟
+          </h2>
+          <p class="section-sub reveal">مش بس كلام – أرقام وضمانات حقيقية</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3 reveal reveal-delay-1">
+            <div
+              class="glass-card why-card h-100 flex-column align-items-start"
+            >
+              <div class="why-icon"><i class="fas fa-bolt"></i></div>
+              <div class="mt-3">
+                <h6>خدمة خلال ساعات</h6>
+                <p>بنصلح موبايلك في أسرع وقت ممكن مع الحفاظ على أعلى جودة.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 reveal reveal-delay-2">
+            <div
+              class="glass-card why-card h-100 flex-column align-items-start"
+            >
+              <div class="why-icon"><i class="fas fa-shield-halved"></i></div>
+              <div class="mt-3">
+                <h6>ضمان حقيقي</h6>
+                <p>كل إصلاح بيجي بضمان مكتوب ومعترف بيه – مش مجرد وعود.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 reveal reveal-delay-3">
+            <div
+              class="glass-card why-card h-100 flex-column align-items-start"
+            >
+              <div class="why-icon"><i class="fas fa-user-graduate"></i></div>
+              <div class="mt-3">
+                <h6>خبرة +8 سنين</h6>
+                <p>فنيينا اتدربوا على أعلى مستوى وشتغلوا مع أصعب الأعطال.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 reveal reveal-delay-4">
+            <div
+              class="glass-card why-card h-100 flex-column align-items-start"
+            >
+              <div class="why-icon"><i class="fas fa-tag"></i></div>
+              <div class="mt-3">
+                <h6>أسعار مناسبة</h6>
+                <p>هتلاقي أحسن سعر في المنطقة من غير أي تنازل في الجودة.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+     PRODUCTS
+============================================================ -->
+<section id="products">
+  <div class="container">
+    <div class="text-center mb-5">
+      <div class="section-divider reveal"></div>
+      <p class="text-uppercase small fw-bold reveal"
+        style="color: var(--blue-1); letter-spacing: 2px">
+        متجرنا
+      </p>
+      <h2 class="section-title reveal">
+        أحدث <span class="blue-text">المنتجات</span>
+      </h2>
+      <p class="section-sub reveal">موبايلات وإكسسوارات بأفضل الأسعار</p>
+    </div>
+
+    <div class="row g-4">
+
+      <!-- Product 1 -->
+      <div class="col-sm-6 col-lg-3 reveal reveal-delay-1">
+        <div class="glass-card product-card h-100">
+
+          <div class="product-img">
+            <img src="img/oppo14.webp" alt="iPhone 15 Pro Max">
+          </div>
+
+          <div class="product-body">
+            <h6><span class="badge-new">NEW</span>OPPO Reno 14</h6>
+            <p>📺 الشاشة: 6.7 بوصة AMOLED – 120Hz
+⚡ المعالج: MediaTek Dimensity 8200 / أو قريب منه حسب النسخة
+📸 الكاميرا الخلفية: 50MP (أساسية) + 8MP + 2MP
+🤳 الكاميرا الأمامية: 32MP
+🔋 البطارية: 5000mAh
+⚡ الشحن السريع: 67W أو 80W
+💾 الرام: 8GB / 12GB
+💽 التخزين: 256GB / 512GB
+📱 النظام: Android 14 – ColorOS</p>
+
+            <a href="https://wa.me/201152456274"
+              target="_blank"
+              class="btn btn-primary-glow btn-sm mt-3 w-100">
+              <i class="fab fa-whatsapp me-1"></i> استفسر دلوقتي
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="col-sm-6 col-lg-3 reveal reveal-delay-2">
+        <div class="glass-card product-card h-100">
+
+          <div class="product-img">
+            <img src="img/ريلمى c71.webp" alt="Samsung S24 Ultra">
+          </div>
+
+          <div class="product-body">
+            <h6>Realme C71</h6>
+            <p>📺 الشاشة: 6.67 بوصة IPS LCD – دقة HD+ – 120Hz
+⚡ المعالج: Unisoc T7250 (ثماني النواة)
+💾 الرام: 4 / 6 / 8 جيجا
+💽 التخزين: 128 جيجا (مع دعم كارت ميموري)
+📷 الكاميرا الخلفية: 50 ميجا بيكسل AI
+🤳 الكاميرا الأمامية: 5 ميجا بيكسل
+🔋 البطارية: 6000 – 6300 mAh
+⚡ الشحن: 45W سريع
+📡 الشبكات: 4G
+🔊 صوت + بصمة جانبية + USB Type-Ck</p>
+            <a href="https://wa.me/201152456274"
+              target="_blank"
+              class="btn btn-primary-glow btn-sm mt-3 w-100">
+              <i class="fab fa-whatsapp me-1"></i> استفسر دلوقتي
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="col-sm-6 col-lg-3 reveal reveal-delay-3">
+        <div class="glass-card product-card h-100">
+
+          <div class="product-img">
+            <img src="img/AirPods Pro 2.webp" alt="AirPods Pro 2">
+          </div>
+
+          <div class="product-body">
+            <h6><span class="badge-new">HOT</span>AirPods Pro 2</h6>
+            <p>🔊 الصوت:
+
+درايفر مخصص عالي الأداء من Apple
+مضخم صوت عالي الديناميكية
+خاصية Active Noise Cancellation (إلغاء الضوضاء) قوية جداً
+وضع Transparency / Adaptive Transparency لسماع البيئة حولك بوضوح
+صوت محيطي Spatial Audio مع تتبع حركة الرأس
+معادلة صوت تلقائية Adaptive EQ</p>
+            <a href="https://wa.me/201152456274"
+              target="_blank"
+              class="btn btn-primary-glow btn-sm mt-3 w-100">
+              <i class="fab fa-whatsapp me-1"></i> استفسر دلوقتي
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Product 4 -->
+      <div class="col-sm-6 col-lg-3 reveal reveal-delay-4">
+        <div class="glass-card product-card h-100">
+
+          <div class="product-img">
+            <img src="img/iphone 17.jpg" alt="Xiaomi 14 Ultra">
+          </div>
+
+          <div class="product-body">
+            <h6>iphone 17</h6>
+            <p>📺 شاشة 6.3 بوصة OLED
+🔄 معدل تحديث 120Hz (سلس جداً)
+🚀 معالج Apple A19
+🧠 RAM: 8GB
+💾 تخزين: 256GB / 512GB
+📷 كاميرا خلفية: 48MP + 48MP (Wide + Ultra Wide)
+🤳 كاميرا أمامية: 18MP Center Stage
+🔋 بطارية قوية (تشغيل يوم كامل)
+📡 دعم Wi-Fi 7 و Bluetooth 6</p>
+            <a href="https://wa.me/201152456274"
+              target="_blank"
+              class="btn btn-primary-glow btn-sm mt-3 w-100">
+              <i class="fab fa-whatsapp me-1"></i> استفسر دلوقتي
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+    <!-- ============================================================
+     TESTIMONIALS
+============================================================ -->
+    <section id="testimonials">
+      <div class="container">
+        <div class="text-center mb-5">
+          <div class="section-divider reveal"></div>
+          <p
+            class="text-uppercase small fw-bold reveal"
+            style="color: var(--blue-1); letter-spacing: 2px"
+          >
+            آراء عملاؤنا
+          </p>
+          <h2 class="section-title reveal">
+            بيقولوا <span class="blue-text">إيه عنّا؟</span>
+          </h2>
+          <p class="section-sub reveal">
+            مش بس كلامنا – دي شهادات عملاء حقيقيين
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4 reveal reveal-delay-1">
+            <div class="glass-card testi-card">
+              <div class="testi-stars">★★★★★</div>
+              <p class="testi-text">
+                اشتريت تليفون Realme C67 من عندهم، جهاز ممتاز وسعره كويس جداً
+                مقارنة بالسوق. خدمة محترفة وناس أمينين
+              </p>
+              <div class="testi-author">
+                <div class="testi-avatar">م.أ</div>
+                <div>
+                  <div class="testi-name">مهندس اشرف البراوى</div>
+                  <div class="testi-role">عميل منذ 2021</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 reveal reveal-delay-2">
+            <div class="glass-card testi-card">
+              <div class="testi-stars">★★★★★</div>
+              <p class="testi-text">
+                "عملت trade-in لـ Samsung القديم وشريت iPhone جديد – التقييم كان
+                عادل جداً. انصح بيهم لكل حد!"
+              </p>
+              <div class="testi-author">
+                <div class="testi-avatar">س.م</div>
+                <div>
+                  <div class="testi-name">سارة محمود</div>
+                  <div class="testi-role">عميلة منذ 2022</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 reveal reveal-delay-3">
+            <div class="glass-card testi-card">
+              <div class="testi-stars">★★★★★</div>
+              <p class="testi-text">
+                "موبايلي وقع في المية! جبته وقالولي مش هينفع، بس أصروا يجربوا
+                وصلحوه. الجماعة دول مش عارف بيعملوا إيه!"
+              </p>
+              <div class="testi-author">
+                <div class="testi-avatar">ك.إ</div>
+                <div>
+                  <div class="testi-name">كريم إبراهيم</div>
+                  <div class="testi-role">عميل منذ 2020</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+     CONTACT
+============================================================ -->
+    <section id="contact">
+      <div class="container">
+        <div class="text-center mb-5">
+          <div class="section-divider reveal"></div>
+          <p
+            class="text-uppercase small fw-bold reveal"
+            style="color: var(--blue-1); letter-spacing: 2px"
+          >
+            تواصل
+          </p>
+          <h2 class="section-title reveal">
+            تواصل <span class="blue-text">معنا</span>
+          </h2>
+          <p class="section-sub reveal">إحنا هنا نساعدك في أي وقت</p>
+        </div>
+
+        <div class="row g-5 align-items-start">
+          <!-- Info -->
+          <div class="col-lg-6">
+            <div class="glass-card contact-info-card reveal">
+              <div class="contact-icon"><i class="fas fa-phone"></i></div>
+              <div>
+                <h6>رقم التليفون</h6>
+                <p>01152456274</p>
+              </div>
+            </div>
+            <div class="glass-card contact-info-card reveal">
+              <div class="contact-icon">
+                <i class="fas fa-location-dot"></i>
+              </div>
+              <div>
+                <h6>العنوان</h6>
+                <p>ميت المخلص – أمام الجمعية الزراعية – طريق السنطة شرشابة</p>
+              </div>
+            </div>
+            <div class="glass-card contact-info-card reveal">
+              <div class="contact-icon"><i class="fas fa-clock"></i></div>
+              <div>
+                <h6>مواعيد العمل</h6>
+                <p>السبت – الجمعة: 10ص – 11م</p>
+              </div>
+            </div>
+
+            <div class="reveal mt-3">
+              <a
+                href="https://wa.me/201152456274"
+                target="_blank"
+                class="whatsapp-btn"
+              >
+                <i class="fab fa-whatsapp" style="font-size: 1.3rem"></i>
+                ابعتلنا على واتساب دلوقتي
+              </a>
+            </div>
+          </div>
+
+          <!-- Map placeholder -->
+          <div class="col-lg-6 reveal">
+            <div class="map-placeholder">
+              <i class="fas fa-map-location-dot"></i>
+              <strong>الخريطة</strong>
+              <p>اللوكيشن هيتحط هنا على Google Maps</p>
+              <a
+                href="https://maps.app.goo.gl/6BCRuHWJk5n8PbqH7"
+                target="_blank"
+                class="btn btn-outline-glow btn-sm mt-2"
+              >
+                <i class="fas fa-map-marker-alt me-1"></i> افتح Google Maps
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+     FOOTER
+============================================================ -->
+    <footer>
+      <div class="container">
+        <div class="row gy-4">
+          <!-- Brand -->
+          <div class="col-lg-4">
+            <a href="#hero" class="footer-logo">Shosha<span>Phone</span></a>
+            <p class="footer-desc">
+              مركز صيانة وبيع موبايلات متكامل. بنقدم خدمة احترافية بأيدي
+              متخصصين. ثقتك في رقبتنا!
+            </p>
+            <div class="social-links">
+              <a href="https://www.facebook.com/share/1GP73d7zfh/" class="social-link" aria-label="Facebook"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="https://www.instagram.com/boda_59566?igsh=MXNrcjljaXNmNXlxdw==" class="social-link" aria-label="Instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="https://www.tiktok.com/@abdo01152456274?_r=1&_t=ZS-95cWPRNPFoq" class="social-link" aria-label="TikTok"
+                ><i class="fab fa-tiktok"></i
+              ></a>
+              <a
+                href="https://wa.me/201152456274"
+                target="_blank"
+                class="social-link"
+                aria-label="WhatsApp"
+                ><i class="fab fa-whatsapp"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- Links -->
+          <div class="col-sm-6 col-lg-2">
+            <h6 class="footer-heading">روابط سريعة</h6>
+            <ul class="footer-links">
+              <li><a href="#services">الخدمات</a></li>
+              <li><a href="#about">عن المحل</a></li>
+              <li><a href="#products">المنتجات</a></li>
+              <li><a href="#contact">تواصل معنا</a></li>
+            </ul>
+          </div>
+
+          <!-- Services -->
+          <div class="col-sm-6 col-lg-3">
+            <h6 class="footer-heading">خدماتنا</h6>
+            <ul class="footer-links">
+              <li><a href="#services">صيانة الموبايلات</a></li>
+              <li><a href="#services">بيع جديد ومستعمل</a></li>
+              <li><a href="#services">Trade-in</a></li>
+              <li><a href="#services">سوفت وير وفلاشة</a></li>
+              <li><a href="#services">إكسسوارات</a></li>
+            </ul>
+          </div>
+
+          <!-- Contact mini -->
+          <div class="col-lg-3">
+            <h6 class="footer-heading">اتصل بينا</h6>
+            <ul class="footer-links">
+              <li>
+                <i class="fas fa-phone me-2" style="color: var(--blue-1)"></i
+                >01152456274
+              </li>
+              <li>
+                <i
+                  class="fas fa-map-marker-alt me-2"
+                  style="color: var(--blue-1)"
+                ></i
+                >ميت المخلص – أمام الجمعية الزراعية – طريق السنطة شرشابة
+              </li>
+              <li>
+                <i class="fas fa-clock me-2" style="color: var(--blue-1)"></i
+                >السبت – الجمعة: 10ص – 11م
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <hr class="footer-divider" />
+        <p class="footer-copy">
+          © 2024 <strong style="color: var(--blue-1)">Shosha Phone</strong>.
+          جميع الحقوق محفوظة. Designed with ❤️
+        </p>
+      </div>
+    </footer>
+
+    <!-- ============================================================
+     BACK TO TOP
+============================================================ -->
+    <button id="backToTop" title="Back to top" aria-label="Back to top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
